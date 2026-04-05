@@ -35,24 +35,28 @@
     "baseURL": "https://api.sambanova.ai/v1"
   },
   "storage": {
-    "keepItems": [
-      "wooden_pickaxe",
-      "stone_pickaxe",
-      "iron_pickaxe",
-      "diamond_pickaxe",
-      "netherite_pickaxe",
-      "wooden_hoe",
-      "stone_hoe",
-      "iron_hoe",
-      "diamond_hoe",
-      "netherite_hoe",
-      "seeds",
-      "wheat_seeds",
-      "carrot",
-      "potato",
-      "beetroot_seeds",
-      "bone_meal",
-      "bread"
-    ]
+    "keepItems": {
+      "keep1": [
+        "wooden_pickaxe",
+        "stone_pickaxe",
+        "iron_pickaxe",
+        "diamond_pickaxe",
+        "netherite_pickaxe",
+        "wooden_hoe",
+        "stone_hoe",
+        "iron_hoe",
+        "diamond_hoe",
+        "netherite_hoe",
+        "bone_meal",
+        "bread"
+      ],
+      "keep2Stacks": [
+        "wheat_seeds",
+        "seeds",
+        "carrot",
+        "potato",
+        "beetroot_seeds"
+      ]
+    }
   }
 }

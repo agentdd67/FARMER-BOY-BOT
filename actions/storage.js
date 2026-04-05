@@ -8,8 +8,19 @@ function isChestBlock(block) {
 }
 
 function getKeepCountForItem(itemName, config) {
-  const keepItems = new Set(config.storage?.keepItems || []);
-  return keepItems.has(itemName) ? 1 : 0;
+  const storage = config.storage || {};
+  
+  // Check keep1 items (keep 1 of each)
+  if (storage.keepItems?.keep1?.includes(itemName)) {
+    return 1;
+  }
+  
+  // Check keep2Stacks items (keep 128 items = 2 stacks of 64)
+  if (storage.keepItems?.keep2Stacks?.includes(itemName)) {
+    return 128;
+  }
+  
+  return 0;
 }
 
 function listDepositTargets(bot, config) {
