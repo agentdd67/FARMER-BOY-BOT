@@ -1,0 +1,411 @@
+
+> minecraft-autonomous-bot@1.0.0 start
+> node main.js
+
+[2026-04-05T17:41:41.349Z] [INFO] Connecting to AjgarForce.aternos.me:26533 as FarmerBoy
+[2026-04-05T17:41:45.872Z] [INFO] Bot spawned
+[2026-04-05T17:41:45.886Z] [INFO] Decision: explore (fallback)
+[2026-04-05T17:41:59.343Z] [INFO] Task explore finished: explore-complete
+[2026-04-05T17:42:00.369Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 194
+[DEBUG] Entity types present: animal, ambient, hostile, passive, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Found 3 mature crops to harvest
+[DEBUG] Moving to crop at (-335, 64, 740), distance: 5.7
+[DEBUG] Breaking wheat at (-335, 64, 740)
+[DEBUG] Moving to crop at (-333, 64, 740), distance: 1.6
+[DEBUG] Breaking wheat at (-333, 64, 740)
+[DEBUG] Moving to crop at (-329, 64, 746), distance: 6.5
+[DEBUG] Breaking wheat at (-329, 64, 746)
+[DEBUG] Harvested 3 crops, now hunting for dropped items...
+[DEBUG] Total entities: 171
+[DEBUG] Entity types present: animal, passive, hostile, ambient, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Collected 0 items after harvesting
+[2026-04-05T17:42:04.490Z] [INFO] Task farm finished: harvested-crops
+[2026-04-05T17:42:05.510Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 158
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Found 18 mature crops to harvest
+[DEBUG] Moving to crop at (-327, 64, 745), distance: 2.2
+[DEBUG] Breaking wheat at (-327, 64, 745)
+[DEBUG] Moving to crop at (-326, 64, 748), distance: 2.6
+[DEBUG] Breaking wheat at (-326, 64, 748)
+[DEBUG] Moving to crop at (-328, 64, 743), distance: 5.9
+[DEBUG] Breaking wheat at (-328, 64, 743)
+[DEBUG] Moving to crop at (-328, 64, 750), distance: 6.3
+[DEBUG] Breaking wheat at (-328, 64, 750)
+[DEBUG] Harvested 4 crops, now hunting for dropped items...
+[DEBUG] Total entities: 146
+[DEBUG] Entity types present: animal, hostile, player, mob, ambient, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Collected 0 items after harvesting
+[2026-04-05T17:42:10.534Z] [INFO] Task farm finished: harvested-crops
+[2026-04-05T17:42:11.552Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 147
+[DEBUG] Entity types present: animal, hostile, player, mob, ambient, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Found 6 mature crops to harvest
+[DEBUG] Moving to crop at (-323, 64, 745), distance: 7.0
+[DEBUG] Breaking wheat at (-323, 64, 745)
+[DEBUG] Moving to crop at (-322, 64, 746), distance: 1.3
+[DEBUG] Breaking wheat at (-322, 64, 746)
+[DEBUG] Moving to crop at (-324, 64, 744), distance: 3.5
+[DEBUG] Breaking wheat at (-324, 64, 744)
+[DEBUG] Moving to crop at (-326, 64, 743), distance: 2.9
+[DEBUG] Breaking wheat at (-326, 64, 743)
+[DEBUG] Moving to crop at (-323, 64, 744), distance: 2.6
+[DEBUG] Breaking wheat at (-323, 64, 744)
+[DEBUG] Harvested 5 crops, now hunting for dropped items...
+[DEBUG] Total entities: 153
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Collected 0 items after harvesting
+[2026-04-05T17:42:17.149Z] [INFO] Task farm finished: harvested-crops
+[2026-04-05T17:42:18.165Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 150
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Found 21 mature crops to harvest
+[DEBUG] Moving to crop at (-323, 64, 743), distance: 1.6
+[DEBUG] Breaking wheat at (-323, 64, 743)
+[DEBUG] Moving to crop at (-321, 64, 744), distance: 2.1
+[DEBUG] Breaking wheat at (-321, 64, 744)
+[DEBUG] Moving to crop at (-322, 64, 741), distance: 3.8
+[DEBUG] Breaking wheat at (-322, 64, 741)
+[DEBUG] Moving to crop at (-324, 64, 741), distance: 2.7
+[DEBUG] Breaking wheat at (-324, 64, 741)
+[DEBUG] Moving to crop at (-319, 64, 746), distance: 6.3
+[DEBUG] Breaking wheat at (-319, 64, 746)
+[DEBUG] Harvested 5 crops, now hunting for dropped items...
+[DEBUG] Total entities: 194
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Collected 0 items after harvesting
+[2026-04-05T17:42:23.299Z] [INFO] Task farm finished: harvested-crops
+[2026-04-05T17:42:24.314Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 193
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Found 14 mature crops to harvest
+[DEBUG] Moving to crop at (-318, 64, 748), distance: 1.6
+[DEBUG] Breaking wheat at (-318, 64, 748)
+[DEBUG] Moving to crop at (-318, 64, 744), distance: 4.4
+[DEBUG] Breaking wheat at (-318, 64, 744)
+[DEBUG] Moving to crop at (-319, 64, 742), distance: 2.9
+[DEBUG] Breaking wheat at (-319, 64, 742)
+[DEBUG] Moving to crop at (-323, 64, 748), distance: 7.1
+[DEBUG] Breaking wheat at (-323, 64, 748)
+[DEBUG] Harvested 4 crops, now hunting for dropped items...
+[DEBUG] Total entities: 150
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Collected 0 items after harvesting
+[2026-04-05T17:42:29.380Z] [INFO] Task farm finished: harvested-crops
+[2026-04-05T17:42:30.391Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 151
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Found 10 mature crops to harvest
+[DEBUG] Moving to crop at (-326, 64, 747), distance: 3.7
+[DEBUG] Breaking wheat at (-326, 64, 747)
+[DEBUG] Moving to crop at (-317, 64, 752), distance: 9.6
+[DEBUG] Breaking wheat at (-317, 64, 752)
+[DEBUG] Moving to crop at (-319, 64, 741), distance: 11.7
+[DEBUG] Failed to break crop: Timed out while moving to target
+[DEBUG] Harvested 2 crops, now hunting for dropped items...
+[DEBUG] Total entities: 207
+[DEBUG] Entity types present: animal, hostile, ambient, other, player, mob, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Collected 0 items after harvesting
+[2026-04-05T17:42:36.252Z] [INFO] Task farm finished: harvested-crops
+[2026-04-05T17:42:37.260Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 206
+[DEBUG] Entity types present: animal, hostile, ambient, other, player, mob, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Found 8 mature crops to harvest
+[DEBUG] Moving to crop at (-319, 64, 741), distance: 0.8
+[DEBUG] Breaking wheat at (-319, 64, 741)
+[DEBUG] Moving to crop at (-317, 64, 742), distance: 1.5
+[DEBUG] Breaking wheat at (-317, 64, 742)
+[DEBUG] Moving to crop at (-320, 64, 740), distance: 4.3
+[DEBUG] Breaking wheat at (-320, 64, 740)
+[DEBUG] Moving to crop at (-319, 64, 739), distance: 1.7
+[DEBUG] Breaking wheat at (-319, 64, 739)
+[DEBUG] Moving to crop at (-319, 64, 738), distance: 1.3
+[DEBUG] Breaking wheat at (-319, 64, 738)
+[DEBUG] Moving to crop at (-322, 64, 740), distance: 2.8
+[DEBUG] Breaking wheat at (-322, 64, 740)
+[DEBUG] Moving to crop at (-324, 64, 740), distance: 2.2
+[DEBUG] Breaking wheat at (-324, 64, 740)
+[DEBUG] Harvested 7 crops, now hunting for dropped items...
+[DEBUG] Total entities: 177
+[DEBUG] Entity types present: animal, passive, hostile, ambient, other, player, mob
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Collected 0 items after harvesting
+[2026-04-05T17:42:42.948Z] [INFO] Task farm finished: harvested-crops
+[2026-04-05T17:42:43.953Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 177
+[DEBUG] Entity types present: animal, passive, hostile, ambient, other, player, mob
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Found 4 mature crops to harvest
+[DEBUG] Moving to crop at (-327, 64, 740), distance: 3.5
+[DEBUG] Breaking wheat at (-327, 64, 740)
+[DEBUG] Moving to crop at (-328, 64, 740), distance: 1.6
+[DEBUG] Breaking wheat at (-328, 64, 740)
+[DEBUG] Moving to crop at (-328, 64, 741), distance: 0.9
+[DEBUG] Breaking wheat at (-328, 64, 741)
+[DEBUG] Moving to crop at (-328, 64, 738), distance: 3.4
+[DEBUG] Breaking wheat at (-328, 64, 738)
+[DEBUG] Harvested 4 crops, now hunting for dropped items...
+[DEBUG] Total entities: 191
+[DEBUG] Entity types present: animal, ambient, passive, hostile, other, player, mob
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Collected 0 items after harvesting
+[2026-04-05T17:42:47.534Z] [INFO] Task farm finished: harvested-crops
+[2026-04-05T17:42:48.544Z] [INFO] Inventory [30 empty]: wheat:11, wheat_seeds:64, wheat_seeds:64, wheat_seeds:64, wheat_seeds:64, wheat_seeds:30
+[2026-04-05T17:42:48.544Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 192
+[DEBUG] Entity types present: animal, ambient, passive, hostile, other, player, mob
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Checking for seeds to plant: wheat_seeds
+[2026-04-05T17:43:00.939Z] [INFO] Task farm finished: planted-seeds
+[2026-04-05T17:43:01.951Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 194
+[DEBUG] Entity types present: animal, ambient, passive, hostile, other, player, mob
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Found 2 mature crops to harvest
+[DEBUG] Moving to crop at (-326, 64, 741), distance: 2.8
+[DEBUG] Breaking wheat at (-326, 64, 741)
+[DEBUG] Moving to crop at (-323, 64, 739), distance: 3.6
+[DEBUG] Breaking wheat at (-323, 64, 739)
+[DEBUG] Harvested 2 crops, now hunting for dropped items...
+[DEBUG] Total entities: 184
+[DEBUG] Entity types present: animal, ambient, passive, hostile, other, player, mob
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Collected 0 items after harvesting
+[2026-04-05T17:43:04.451Z] [INFO] Task farm finished: harvested-crops
+[2026-04-05T17:43:05.461Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 181
+[DEBUG] Entity types present: animal, ambient, passive, hostile, other, player, mob
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Checking for seeds to plant: wheat_seeds
+[2026-04-05T17:43:19.479Z] [INFO] Task farm finished: planted-seeds
+[2026-04-05T17:43:20.504Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 147
+[DEBUG] Entity types present: animal, ambient, hostile, player, mob, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Checking for seeds to plant: wheat_seeds
+[2026-04-05T17:43:39.173Z] [INFO] Task farm finished: planted-seeds
+[2026-04-05T17:43:40.184Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 156
+[DEBUG] Entity types present: animal, hostile, player, mob, other, ambient, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Checking for seeds to plant: wheat_seeds
+[2026-04-05T17:43:53.289Z] [INFO] Task farm finished: planted-seeds
+[2026-04-05T17:43:54.298Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 158
+[DEBUG] Entity types present: animal, hostile, player, mob, other, ambient, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Checking for seeds to plant: wheat_seeds
+[2026-04-05T17:44:06.830Z] [INFO] Task farm finished: planted-seeds
+[2026-04-05T17:44:07.840Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 154
+[DEBUG] Entity types present: animal, hostile, player, mob, passive, ambient, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Found 1 mature crops to harvest
+[DEBUG] Moving to crop at (-327, 64, 746), distance: 6.6
+[DEBUG] Breaking wheat at (-327, 64, 746)
+[DEBUG] Harvested 1 crops, now hunting for dropped items...
+[DEBUG] Total entities: 169
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, passive, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Collected 0 items after harvesting
+[2026-04-05T17:44:10.153Z] [INFO] Task farm finished: harvested-crops
+[2026-04-05T17:44:11.163Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 221
+[DEBUG] Entity types present: animal, passive, hostile, ambient, other, player, mob
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Found 2 mature crops to harvest
+[DEBUG] Moving to crop at (-325, 64, 740), distance: 6.7
+[DEBUG] Breaking wheat at (-325, 64, 740)
+[DEBUG] Moving to crop at (-318, 64, 747), distance: 9.2
+[DEBUG] Breaking wheat at (-318, 64, 747)
+[DEBUG] Harvested 2 crops, now hunting for dropped items...
+[DEBUG] Total entities: 210
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, passive, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Collected 0 items after harvesting
+[2026-04-05T17:44:15.388Z] [INFO] Task farm finished: harvested-crops
+[2026-04-05T17:44:16.395Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 209
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, passive, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Checking for seeds to plant: wheat_seeds
+[2026-04-05T17:44:29.174Z] [INFO] Task farm finished: planted-seeds
+[2026-04-05T17:44:30.183Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 207
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Checking for seeds to plant: wheat_seeds
+[2026-04-05T17:44:42.518Z] [INFO] Task farm finished: planted-seeds
+[2026-04-05T17:44:43.527Z] [INFO] Inventory [31 empty]: wheat:11, wheat_seeds:41, wheat_seeds:64, wheat_seeds:64, wheat_seeds:30
+[2026-04-05T17:44:43.527Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 202
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Checking for seeds to plant: wheat_seeds
+[2026-04-05T17:44:50.077Z] [INFO] Task farm finished: planted-seeds
+[2026-04-05T17:44:51.085Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 151
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Checking for seeds to plant: wheat_seeds
+[2026-04-05T17:45:02.364Z] [INFO] Task farm finished: planted-seeds
+[2026-04-05T17:45:03.370Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 153
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Found 2 mature crops to harvest
+[DEBUG] Moving to crop at (-320, 64, 747), distance: 5.4
+[DEBUG] Breaking wheat at (-320, 64, 747)
+[DEBUG] Moving to crop at (-318, 64, 743), distance: 4.7
+[DEBUG] Breaking wheat at (-318, 64, 743)
+[DEBUG] Harvested 2 crops, now hunting for dropped items...
+[DEBUG] Total entities: 211
+[DEBUG] Entity types present: animal, passive, hostile, ambient, other, player, mob
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Collected 0 items after harvesting
+[2026-04-05T17:45:06.589Z] [INFO] Task farm finished: harvested-crops
+[2026-04-05T17:45:07.599Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 228
+[DEBUG] Entity types present: animal, ambient, passive, hostile, other, player, mob
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Found 1 mature crops to harvest
+[DEBUG] Moving to crop at (-324, 64, 743), distance: 7.9
+[DEBUG] Breaking wheat at (-324, 64, 743)
+[DEBUG] Harvested 1 crops, now hunting for dropped items...
+[DEBUG] Total entities: 169
+[DEBUG] Entity types present: animal, passive, hostile, ambient, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Collected 0 items after harvesting
+[2026-04-05T17:45:10.373Z] [INFO] Task farm finished: harvested-crops
+[2026-04-05T17:45:11.382Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 172
+[DEBUG] Entity types present: animal, passive, hostile, ambient, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Found 1 mature crops to harvest
+[DEBUG] Moving to crop at (-317, 64, 748), distance: 7.9
+[DEBUG] Breaking wheat at (-317, 64, 748)
+[DEBUG] Harvested 1 crops, now hunting for dropped items...
+[DEBUG] Total entities: 215
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] Collected 0 items after harvesting
+[2026-04-05T17:45:13.947Z] [INFO] Task farm finished: harvested-crops
+[2026-04-05T17:45:14.959Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 217
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Checking for seeds to plant: wheat_seeds
+[2026-04-05T17:45:19.952Z] [INFO] Task farm finished: planted-seeds
+[2026-04-05T17:45:20.960Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 208
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Checking for seeds to plant: wheat_seeds
+[2026-04-05T17:45:25.256Z] [INFO] Task farm finished: planted-seeds
+[2026-04-05T17:45:26.268Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 179
+[DEBUG] Entity types present: animal, passive, hostile, ambient, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Checking for seeds to plant: wheat_seeds
+[2026-04-05T17:45:31.208Z] [INFO] Task farm finished: planted-seeds
+[2026-04-05T17:45:32.215Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 202
+[DEBUG] Entity types present: animal, ambient, passive, hostile, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[2026-04-05T17:45:34.590Z] [INFO] Task farm finished: no-farmland-found
+[2026-04-05T17:45:35.596Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 201
+[DEBUG] Entity types present: animal, ambient, passive, hostile, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[2026-04-05T17:45:37.929Z] [INFO] Task farm finished: no-farmland-found
+[2026-04-05T17:45:38.937Z] [INFO] Inventory [32 empty]: wheat:11, wheat_seeds:59, wheat_seeds:64, wheat_seeds:30
+[2026-04-05T17:45:38.937Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 201
+[DEBUG] Entity types present: animal, ambient, passive, hostile, other, player, mob
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[2026-04-05T17:45:41.322Z] [INFO] Task farm finished: no-farmland-found
+[2026-04-05T17:45:42.333Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 201
+[DEBUG] Entity types present: animal, ambient, passive, hostile, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[2026-04-05T17:45:44.688Z] [INFO] Task farm finished: no-farmland-found
+[2026-04-05T17:45:45.698Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 202
+[DEBUG] Entity types present: animal, ambient, passive, hostile, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks

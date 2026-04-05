@@ -50,7 +50,7 @@
         "bone_meal",
         "bread"
       ],
-      "keep2Stacks": [
+      "keep1Stack": [
         "wheat_seeds",
         "seeds",
         "carrot",

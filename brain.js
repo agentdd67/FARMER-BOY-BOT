@@ -137,13 +137,13 @@ class BrainController {
     const villagerNearby = snapshot.nearbyVillagers?.length > 0;
     const tradeable = snapshot.tradeableItems?.length > 0;
 
-    // Count crop items in inventory
-    const cropItems = (snapshot.inventory.items || []).filter(item => 
-      ['wheat', 'carrot', 'potato', 'beetroot', 'nether_wart', 'wheat_seeds', 'seeds'].includes(item.name)
+    // Count ONLY harvested crops (not seeds - seeds stay in inventory for replanting)
+    const harvestedCrops = (snapshot.inventory.items || []).filter(item => 
+      ['wheat', 'carrot', 'potato', 'beetroot', 'nether_wart'].includes(item.name)
     );
-    const totalCrops = cropItems.reduce((sum, item) => sum + (item.count || 0), 0);
+    const totalCrops = harvestedCrops.reduce((sum, item) => sum + (item.count || 0), 0);
 
-    // Priority 1: Store if inventory is full OR has lots of crops (lower threshold for constant farming)
+    // Priority 1: Store if inventory is full OR has lots of harvested crops
     if (nearestChest && (snapshot.inventory.full || totalCrops >= 25)) {
       return 'store';
     }

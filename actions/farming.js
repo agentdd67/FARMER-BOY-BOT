@@ -193,21 +193,16 @@ async function harvestNearbyPlots(bot, brain, config, timeoutMs = 10000) {
     
     const distance = bot.entity.position.distanceTo(crop.pos);
     
-    // Move closer if needed
-    if (distance > 4) {
-      try {
-        await goNearPosition(bot, crop.pos, 2, {
-          jitter: false,
-          timeoutMs: 3000,
-          shouldAbort: () => brain.shouldAbort()
-        });
-      } catch {
-        continue;
-      }
-    }
-    
-    // Break the crop AND WAIT for items to drop
+    // Move TO the crop position itself (stand on top of it)
     try {
+      console.log(`[DEBUG] Moving to crop at (${crop.pos.x}, ${crop.pos.y}, ${crop.pos.z}), distance: ${distance.toFixed(1)}`);
+      await goNearPosition(bot, crop.pos, 0.5, {
+        jitter: false,
+        timeoutMs: 2000,
+        shouldAbort: () => brain.shouldAbort()
+      });
+      
+      // Now break it while standing on top
       await bot.lookAt(crop.pos.offset(0.5, 0.5, 0.5), false);
       console.log(`[DEBUG] Breaking ${crop.name} at (${crop.pos.x}, ${crop.pos.y}, ${crop.pos.z})`);
       await bot.dig(crop.block, true);
@@ -266,6 +261,8 @@ async function farmCrops(bot, state, brain, config, options = {}) {
   const farmlandList = findNearbyFarmlandList(bot, 14);
   if (farmlandList.length > 0) {
     const seedItem = findInventoryItem(bot, getAllSeedNames());
+    console.log(`[DEBUG] Checking for seeds to plant: ${seedItem ? seedItem.name : 'NONE FOUND'}`);
+    
     if (seedItem) {
       let planted = 0;
       await bot.equip(seedItem, 'hand');
