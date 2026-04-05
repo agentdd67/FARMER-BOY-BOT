@@ -409,3 +409,93 @@
 [DEBUG] Filtered to 0 items within radius 20
 [DEBUG] No items found within radius 20
 [DEBUG] No mature crops found within 8 blocks
+[2026-04-05T17:45:48.076Z] [INFO] Task farm finished: no-farmland-found
+[2026-04-05T17:45:49.084Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 203
+[DEBUG] Entity types present: animal, ambient, passive, hostile, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[2026-04-05T17:45:51.427Z] [INFO] Task farm finished: no-farmland-found
+[2026-04-05T17:45:52.437Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 197
+[DEBUG] Entity types present: animal, ambient, hostile, passive, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Total entities: 173
+[DEBUG] Entity types present: animal, passive, hostile, ambient, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[2026-04-05T17:45:54.434Z] [INFO] Task farm finished: roaming-farm
+[2026-04-05T17:45:55.441Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 174
+[DEBUG] Entity types present: animal, passive, hostile, ambient, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Total entities: 182
+[DEBUG] Entity types present: animal, passive, hostile, ambient, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[2026-04-05T17:45:56.832Z] [INFO] Task farm finished: roaming-farm
+[2026-04-05T17:45:57.839Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 179
+[DEBUG] Entity types present: animal, ambient, passive, hostile, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Total entities: 170
+[DEBUG] Entity types present: animal, passive, hostile, ambient, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[2026-04-05T17:45:59.259Z] [INFO] Task farm finished: roaming-farm
+[2026-04-05T17:46:00.270Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 161
+[DEBUG] Entity types present: animal, passive, hostile, ambient, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Total entities: 174
+[DEBUG] Entity types present: animal, passive, hostile, ambient, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[2026-04-05T17:46:01.000Z] [INFO] Task farm finished: roaming-farm
+[2026-04-05T17:46:02.090Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 179
+[DEBUG] Entity types present: animal, passive, hostile, ambient, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Total entities: 163
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, passive, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[2026-04-05T17:46:03.829Z] [INFO] Task farm finished: roaming-farm
+[2026-04-05T17:46:04.842Z] [INFO] Inventory [32 empty]: wheat:11, wheat_seeds:60, wheat_seeds:64, wheat_seeds:30
+[2026-04-05T17:46:04.842Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 151
+[DEBUG] Entity types present: animal, hostile, ambient, player, mob, other, passive
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[DEBUG] Total entities: 192
+[DEBUG] Entity types present: animal, ambient, passive, hostile, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[2026-04-05T17:46:06.900Z] [INFO] Task farm finished: roaming-farm
+[2026-04-05T17:46:07.908Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 194
+[DEBUG] Entity types present: animal, ambient, passive, hostile, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[2026-04-05T17:46:10.266Z] [INFO] Task farm finished: no-farmland-found
+[2026-04-05T17:46:11.277Z] [INFO] Decision: farm (rule)
+[DEBUG] Total entities: 200
+[DEBUG] Entity types present: animal, ambient, hostile, passive, player, mob, other
+[DEBUG] Filtered to 0 items within radius 20
+[DEBUG] No items found within radius 20
+[DEBUG] No mature crops found within 8 blocks
+[2026-04-05T17:46:13.680Z] [INFO] Task farm finished: no-farmland-found
+[2026-04-05T17:46:14.692Z] [INFO] Decision: farm (rule)
