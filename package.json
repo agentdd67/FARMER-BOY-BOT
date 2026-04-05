@@ -1,0 +1,19 @@
+{
+  "name": "minecraft-autonomous-bot",
+  "version": "1.0.0",
+  "description": "Advanced Minecraft bot with hybrid rule-based and AI decision making.",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "mineflayer": "^4.31.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "vec3": "^0.1.10"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

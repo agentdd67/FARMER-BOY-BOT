@@ -1,0 +1,58 @@
+{
+  "server": {
+    "host": "AjgarForce.aternos.me",
+    "port": 26533,
+    "username": "FarmerBoy",
+    "auth": "offline",
+    "version": false,
+    "password": ""
+  },
+  "bot": {
+    "commandPrefix": "!",
+    "baseCenter": {
+      "x": 0,
+      "y": 64,
+      "z": 0
+    },
+    "baseRadius": 48,
+    "scanRadius": 8,
+    "taskLockMs": 100,
+    "stuckSeconds": 12,
+    "minActionDelayMs": 0,
+    "maxActionDelayMs": 10,
+    "followDistance": 2,
+    "farmPlotSize": 25,
+    "exploreRadius": 18,
+    "aiCooldownMs": 2000,
+    "reconnectDelayMs": 10000,
+    "randomLookIntervalMs": 2000
+  },
+  "ai": {
+    "enabled": true,
+    "provider": "sambanova",
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "apiKeyEnv": "3180b9a1-db8b-4cc2-a567-7e47166e351c",
+    "baseURL": "https://api.sambanova.ai/v1"
+  },
+  "storage": {
+    "keepItems": [
+      "wooden_pickaxe",
+      "stone_pickaxe",
+      "iron_pickaxe",
+      "diamond_pickaxe",
+      "netherite_pickaxe",
+      "wooden_hoe",
+      "stone_hoe",
+      "iron_hoe",
+      "diamond_hoe",
+      "netherite_hoe",
+      "seeds",
+      "wheat_seeds",
+      "carrot",
+      "potato",
+      "beetroot_seeds",
+      "bone_meal",
+      "bread"
+    ]
+  }
+}
