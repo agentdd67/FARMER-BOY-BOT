@@ -336,6 +336,15 @@ class BrainController {
     const snapshot = this.state.update(this.bot);
     this.state.setCurrentTask(this.currentTask);
 
+    // Log inventory status every 10 ticks
+    if (!this.tickCount) this.tickCount = 0;
+    this.tickCount = (this.tickCount + 1) % 10;
+    if (this.tickCount === 0) {
+      const items = snapshot.inventory.items;
+      const itemsStr = items.map(i => `${i.name}:${i.count}`).join(', ') || '(empty)';
+      this.logger.info(`Inventory [${snapshot.inventory.emptySlots} empty]: ${itemsStr}`);
+    }
+
     const command = this.consumeCommand(snapshot);
     if (command) {
       await this.startAction(command.action, 'command', snapshot, command.extra);
