@@ -9,6 +9,7 @@
   },
   "bot": {
     "commandPrefix": "!",
+    "reconnectDelayMs": 30000,
     "baseCenter": {
       "x": 0,
       "y": 64,
