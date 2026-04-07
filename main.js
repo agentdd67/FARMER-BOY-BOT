@@ -24,6 +24,10 @@ function createLogger() {
   };
 }
 
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
 const logger = createLogger();
 let reconnectTimer = null;
 let activeBot = null;
@@ -75,7 +79,12 @@ function configureMovements(bot) {
 }
 
 function wireCommandListeners(bot, state, brain) {
-  const botNamePattern = new RegExp(`^(?:hey\s+)?${bot.username}(?:[,:!\-\s]+)?(.*)$`, 'i');
+  const mentionNames = [...new Set([
+    bot.username,
+    'thebot',
+    'bot'
+  ].filter(Boolean))].map(escapeRegExp).join('|');
+  const botNamePattern = new RegExp(`^(?:hey\s+)?(?:${mentionNames})(?:[,:!\-\s]+)?(.*)$`, 'i');
 
   const handleIncomingMessage = (username, message) => {
     if (username === bot.username) return;
